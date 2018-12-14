@@ -4,6 +4,8 @@ This is a backend system for retrieving the bitcoin price movements for certain 
 
 ## Getting Started
 
+This project is created by using Core Java with Spring framework in Maven. This allows you to do below mentioned items,
+
 ● Allowing users to see the bitcoin price movement for last week, last month, last year or any
 custom date.
 
@@ -11,11 +13,7 @@ custom date.
 dates.
 
 ● Allowing users to get bitcoin trading decision on whether to BUY, SELL or HOLD based on the
-price movement for the last X days (use any calculation/algorithm which you’d consider optimal to
-determine the outcome).
-
-● To get the historic data on bitcoin prices, system using the following API exposed by coinbase:
-https://www.coinbase.com/api/v2/prices/BTC-USD/historic?period=all
+price movement for the last X days.
 
 ### Prerequisites
 
