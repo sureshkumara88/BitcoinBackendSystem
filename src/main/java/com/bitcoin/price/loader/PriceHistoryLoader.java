@@ -37,8 +37,7 @@ public class PriceHistoryLoader {
 	public List<Data> getPriceInstance() {		
 		if (dataList == null || (dateLoaded != null && dateLoaded.compareTo(getDateObject(0)) != 0)) {
 			dataList = loadDataList();
-			dateLoaded = getDateObject(0);
-			System.out.println("Price Loader Called!");
+			dateLoaded = getDateObject(0);			
 		}
 		return dataList;
 	}
